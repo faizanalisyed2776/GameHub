@@ -2,6 +2,7 @@ GameHub - Your Ultimate Gaming Destination
 GameHub is a modern and immersive web platform designed for gamers. It offers a rich user experience with various sections dedicated to showcasing luxury games, delivering the latest gaming news, providing updates on popular upcoming titles like Grand Theft Auto VI, and featuring game trailers and clips. The website is built with a focus on responsiveness, user interaction, and aesthetic appeal, including features like dark/light theme toggling and a functional contact form, along with user authentication pages.
 
  ----- Features ----- 
+
 Responsive Navigation Bar: A navigation menu designed to adapt to various screen sizes, including a hamburger menu for mobile devices.
 
 Dark/Light Theme Toggle: Users can switch between a light and dark theme for a personalized Browse experience, with the preference saved locally.
