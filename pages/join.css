@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+:root {
+  /* Light Theme (Default) */
+  --background: #ffffff;
+  --surface: #f9f9f9;
+  --text: #0f0f0f;
+  --primary: #ff6f61; /* Orange */
+  --secondary: #ff4a3d; /* Darker Orange */
+  --hover: rgba(0, 0, 0, 0.1);
+  --border: rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] {
+  /* Dark Theme */
+  --background: #0f0f0f;
+  --surface: #212121;
+  --text: #ffffff;
+  --primary: #ff6f61; /* Orange */
+  --secondary: #ff4a3d; /* Darker Orange */
+  --hover: rgba(255, 255, 255, 0.1);
+  --border: rgba(255, 255, 255, 0.2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: url('https://images.hdqwalls.com/wallpapers/bthumb/kratos-the-ghost-of-sparta-dv.jpg') no-repeat center center fixed; /* Add your image here */
+  background-size: cover;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  backdrop-filter: blur(15px);
+ 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Navbar Left
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo i {
+  font-size: 32px;
+  margin-right: 10px;
+  color: var(--secondary);
+  animation: pulse 1.5s infinite alternate;
+}
+
+/* Nav Links */
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: color 0.3s ease, transform 0.2s ease;
+  position: relative;
+  padding: 5px 10px;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+  transform: translateY(-3px);
+}
+
+/* Modern Glassmorphic Box */
+.wrapper {
+  overflow: hidden;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+}
+
+/* Title Styling */
+.wrapper .title-text {
+  display: flex;
+  width: 200%;
+}
+
+.wrapper .title {
+  width: 50%;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff; /* White text */
+  text-transform: uppercase;
+  transition: all 0.6s ease-in-out;
+}
+
+/* Toggle Slide Buttons */
+.wrapper .slide-controls {
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  margin: 30px 0 10px 0;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+}
+
+.slide-controls .slide {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+  color: #fff; /* White text */
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-controls .slider-tab {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Radio Buttons Hidden */
+input[type="radio"] {
+  display: none;
+}
+
+#signup:checked ~ .slider-tab {
+  left: 50%;
+}
+
+#signup:checked ~ label.signup {
+  color: #000;
+  cursor: default;
+  user-select: none;
+}
+
+#signup:checked ~ label.login {
+  color: #fff; /* White text */
+}
+
+#login:checked ~ label.signup {
+  color: #fff; /* White text */
+}
+
+#login:checked ~ label.login {
+  cursor: default;
+  user-select: none;
+}
+
+/* Form Container */
+.wrapper .form-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.form-container .form-inner {
+  display: flex;
+  width: 200%;
+}
+
+.form-container .form-inner form {
+  width: 50%;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Input Fields */
+.form-inner form .field {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.form-inner form .field input {
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+  outline: none;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  color: #fff; /* White text */
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+.form-inner form .field input:focus {
+  border-color: #fff; /* White border */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Subtle glow */
+}
+
+.form-inner form .field input::placeholder {
+  color: rgba(255, 255, 255, 0.5); /* Light white placeholder */
+  transition: all 0.3s ease;
+}
+
+.form .field input:focus::placeholder {
+  color: #fff; /* White placeholder */
+}
+
+/* Links */
+.form-inner form .pass-link,
+.form-inner form .signup-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.form-inner form .pass-link a,
+.form-inner form .signup-link a {
+  color: #fff; /* White text */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.form-inner form .pass-link a:hover,
+.form-inner form .signup-link a:hover {
+  text-decoration: underline;
+  color: #00bfff; /* Bright blue on hover */
+}
+
+/* Submit Button */
+form .btn {
+  height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+form .btn .btn-layer {
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+
+form .btn:hover .btn-layer {
+  left: 0;
+}
+
+form .btn input[type="submit"] {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff; /* White text */
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .wrapper .title {
+    font-size: 28px;
+  }
+
+  .slide-controls .slide {
+    font-size: 16px;
+  }
+}

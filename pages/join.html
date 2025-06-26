@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up | Log In for Games hub</title>
+    <link rel="stylesheet" href="join.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">  
+</head>
+  <body>
+    <nav class="navbar">
+    <div class="nav-left">
+  
+      <a href="/index.html"><div class="logo"><i class='bx bxs-game'></i> <span>GameHub</span></div></a>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="/index.html"><i class='bx bx-home'></i> Home</a></li>
+        <li><a href="games.html"><i class='bx bx-joystick'></i> Games</a></li>
+        <li><a href="about.html"><i class='bx bx-user'></i> Profile</a></li>
+        <li><a href="contact.html"><i class='bx bx-envelope'></i> Contact</a></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+    </div>
+  </nav>
+    <div class="wrapper">
+       <div class="title-text">
+          <div class="title login">
+             Account 
+          </div>
+          <div class="title signup">
+             Account
+          </div>
+       </div>
+       <div class="form-container">
+          <div class="slide-controls">
+             <input type="radio" name="slide" id="login" checked>
+             <input type="radio" name="slide" id="signup">
+             <label for="login" class="slide login">Login</label>
+             <label for="signup" class="slide signup">SignUp</label>
+             <div class="slider-tab"></div>
+          </div>
+          <div class="form-inner">
+             <form action="" method="post" class="login">
+                <div class="field">
+                   <input type="text" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="field">
+                   <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="pass-link">
+                   <a href="#">Reset password?</a>
+                </div>
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" value="Login">
+                </div>
+                <div class="signup-link">
+                   Don't Have Account? <a href="#">Create A New</a>
+                </div>
+             </form>
+             <form action="register_user_data.php" method="post" class="signup">
+                <div class="field">
+                   <input type="text" placeholder="Full Name" name="f_name" required>
+                </div>
+                <div class="field">
+                   <input type="text" placeholder="Email Address" name="email" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Confirm Password" required>
+                </div>
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" value="SignUp">
+                </div>
+             </form>
+          </div>
+       </div>
+    </div>
+    <script src="join.js"></script>
+  </body>
+</html>
