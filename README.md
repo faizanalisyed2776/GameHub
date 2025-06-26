@@ -23,6 +23,7 @@ User Authentication: Separate pages for user login and signup, providing a seaml
 Add to Cart Particle Effect: An interactive visual effect that enhances the user experience when items are added to a cart.
 
  ----- Technologies Used ----- 
+
 The GameHub project is built using standard web technologies:
 
 HTML5: Provides the structural foundation of all web pages.
@@ -39,10 +40,11 @@ Simply open the index.html file in your preferred web browser to view the websit
  -----screenshot-----
 
   ![Image Alt](image_url)
+  The index.html serves as the main landing page for GameHub, providing an immersive experience for visitors. It features a dynamic hero section with a video background, showcases luxury games, and offers the latest     gaming news and updates. The page also includes a dedicated section for Grand Theft Auto VI, a gallery for game trailers, and integrates a responsive navbar with theme toggle functionality.
   
-  
-  ![Image Alt](image_url)
+  ![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/61f321d7487c9268e93d914884780eea824aa3d7/Contact%20page.jpg)
+"The contact.html page features a contact form for user inquiries and feedback. It includes fields for name, email, subject, and message, with client-side validation."
   
   
   ![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/a76f459d9c60eca8d843face09f6a15b6cf903db/Join%20page.jpg)
-The join.html page provides user authentication functionalities, featuring both login and signup forms. It allows users to create new accounts or access existing ones.
+"The join.html page provides user authentication functionalities, featuring both login and signup forms. It allows users to create new accounts or access existing ones."
