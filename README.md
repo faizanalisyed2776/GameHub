@@ -39,7 +39,7 @@ Simply open the index.html file in your preferred web browser to view the websit
 
  -----screenshot-----
 
-  ![Image Alt](image_url)
+  ![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/66fc304b589b7d0a52789ac040756434482d3732/Homepage.jpg)
   The index.html serves as the main landing page for GameHub, providing an immersive experience for visitors. It features a dynamic hero section with a video background, showcases luxury games, and offers the latest     gaming news and updates. The page also includes a dedicated section for Grand Theft Auto VI, a gallery for game trailers, and integrates a responsive navbar with theme toggle functionality.
   
   ![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/61f321d7487c9268e93d914884780eea824aa3d7/Contact%20page.jpg)
