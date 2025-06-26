@@ -44,4 +44,5 @@ Simply open the index.html file in your preferred web browser to view the websit
   ![Image Alt](image_url)
   
   
-  ![Image Alt](image_url)
+  ![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/a76f459d9c60eca8d843face09f6a15b6cf903db/Join%20page.jpg)
+The join.html page provides user authentication functionalities, featuring both login and signup forms. It allows users to create new accounts or access existing ones.
