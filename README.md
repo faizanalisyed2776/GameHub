@@ -41,7 +41,7 @@ Simply open the index.html file in your preferred web browser to view the websit
  -----screenshot-----
 
   ![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/66fc304b589b7d0a52789ac040756434482d3732/Homepage.jpg)
-  The index.html serves as the main landing page for GameHub, providing an immersive experience for visitors. It features a dynamic hero section with a video background, showcases luxury games, and offers the latest     gaming news and updates. The page also includes a dedicated section for Grand Theft Auto VI, a gallery for game trailers, and integrates a responsive navbar with theme toggle functionality.
+"The index.html serves as the main landing page for GameHub, providing an immersive experience for visitors. It features a dynamic hero section with a video background, showcases luxury games, and offers the      latestgaming news and updates. The page also includes a dedicated section for Grand Theft Auto VI, a gallery for game trailers, and integrates a responsive navbar with theme toggle functionality."
   
   ![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/61f321d7487c9268e93d914884780eea824aa3d7/Contact%20page.jpg)
 "The contact.html page features a contact form for user inquiries and feedback. It includes fields for name, email, subject, and message, with client-side validation."
@@ -49,3 +49,7 @@ Simply open the index.html file in your preferred web browser to view the websit
   
   ![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/a76f459d9c60eca8d843face09f6a15b6cf903db/Join%20page.jpg)
 "The join.html page provides user authentication functionalities, featuring both login and signup forms. It allows users to create new accounts or access existing ones."
+
+
+![Image Alt](https://github.com/faizanalisyed2776/GameHub/blob/9aab6c2a9cc8d43c2ee28836f7b32c8c277a22ff/About.png)
+"The about.html page, titled "About GameHub," details the gaming blog's history and mission. It features animated statistics, a timeline, and lore sections to inform visitors."
