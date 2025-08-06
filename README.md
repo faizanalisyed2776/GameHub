@@ -12,7 +12,6 @@ Grand Theft Auto VI Section: A dedicated area providing information and content 
 Game Trailers & Clips: A collection of exciting game trailers and cinematic clips, embedded for direct viewing on the site.
 Contact Us Form: A functional contact page allowing users to send inquiries and feedback, featuring input validation.
 User Authentication: Separate pages for user login and signup, providing a seamless entry point for registered members.
-
 Add to Cart Particle Effect: An interactive visual effect that enhances the user experience when items are added to a cart.
 
  ----- Technologies Used ----- 
