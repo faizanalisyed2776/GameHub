@@ -26,16 +26,12 @@ Add to Cart Particle Effect: An interactive visual effect that enhances the user
  ----- Technologies Used ----- 
 
 The GameHub project is built using standard web technologies:
-
 HTML5: Provides the structural foundation of all web pages.
-
 CSS3: Handles all styling, including responsive design, custom properties for theme management, and various visual effects. It uses Google Fonts for typography, Boxicons and Line Awesome for icons.
-
 JavaScript: Powers the interactive elements, such as theme toggling, hamburger menu functionality, form handling, and the "add to cart" particle effect.
 
 Installation and Setup
 To get a local copy of GameHub up and running, follow these simple steps:
-
 Simply open the index.html file in your preferred web browser to view the website.
 
  -----screenshot-----
