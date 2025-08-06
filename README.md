@@ -4,21 +4,13 @@ GameHub is a modern and immersive web platform designed for gamers. It offers a 
  ----- Features ----- 
 
 Responsive Navigation Bar: A navigation menu designed to adapt to various screen sizes, including a hamburger menu for mobile devices.
-
 Dark/Light Theme Toggle: Users can switch between a light and dark theme for a personalized Browse experience, with the preference saved locally.
-
 Dynamic Hero Section: An engaging introductory section with a looping video background to create an immersive first impression.
-
 Luxury Games Showcase: A curated display of high-quality games with interactive cards that provide quick view and purchase options.
-
 Gaming News & Updates: Stay informed with the latest articles and announcements from the gaming world, presented in an easy-to-read format.
-
 Grand Theft Auto VI Section: A dedicated area providing information and content related to the highly anticipated GTA 6.
-
 Game Trailers & Clips: A collection of exciting game trailers and cinematic clips, embedded for direct viewing on the site.
-
 Contact Us Form: A functional contact page allowing users to send inquiries and feedback, featuring input validation.
-
 User Authentication: Separate pages for user login and signup, providing a seamless entry point for registered members.
 
 Add to Cart Particle Effect: An interactive visual effect that enhances the user experience when items are added to a cart.
