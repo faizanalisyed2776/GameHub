@@ -28,7 +28,7 @@ Simply open the index.html file in your preferred web browser to view the websit
  -----screenshot-----
 
   ![Image Alt](https://github.com/faizanalisyed2776/GameHub-ongoing/blob/d3d49190d3568820ff20a0c81914efccea6584a9/HomePage.jpg)
-"The index.php serves as the main landing page for GameHub, providing an immersive experience for visitors. It features a dynamic hero section with a video background, showcases luxury games, and offers the      latestgaming news and updates. The page also includes a dedicated section for Grand Theft Auto VI, a gallery for game trailers, and integrates a responsive navbar with theme toggle functionality."
+"The index.php serves as the main landing page for GameHub, providing an immersive experience for visitors. It features a dynamic hero section with a video background, showcases luxury games, and offers the      latest gaming news and updates. The page also includes a dedicated section for Grand Theft Auto VI, a gallery for game trailers, and integrates a responsive navbar with theme toggle functionality."
   
   ![Image Alt](https://github.com/faizanalisyed2776/GameHub-ongoing/blob/c71b0a07d7fa92b346fdd4cd8d89cebf90a74b68/Contact%20page.jpg)
 "The contact.php page features a contact form for user inquiries and feedback. It includes fields for name, email, subject, and message, with client-side validation."
